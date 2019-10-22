@@ -1,8 +1,10 @@
 $( "document" ).ready(function() {
 
-$( ".button" ).click(function
+$( "#button" ).click(function
 (){
-    $("body").hide;
+
+   $(".output").append("oat");
 });
+
 
 });
